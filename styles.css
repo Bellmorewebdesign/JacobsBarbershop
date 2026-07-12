@@ -221,8 +221,8 @@ h1, h2, h3 { font-family: var(--font-display); line-height: 1.1; color: var(--na
 /* Hero media collage */
 .hero__media { position: relative; }
 .hero__logocard {
-  position: relative; z-index: 2; background: #fff; border-radius: var(--radius);
-  padding: 1rem 1.2rem; box-shadow: var(--shadow-md); border: 1px solid var(--line);
+  position: relative; z-index: 2; background: #26292f; border-radius: var(--radius);
+  padding: 1rem 1.2rem; box-shadow: var(--shadow-md); border: 1px solid rgba(255, 255, 255, 0.12);
   width: fit-content; margin-bottom: -1.4rem; margin-left: auto; margin-right: 1.5rem;
 }
 .hero__logocard img { height: 74px; width: auto; }
