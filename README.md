@@ -34,10 +34,10 @@ Both pages include a shared, accessible navigation, footer, and image lightbox.
 ├── script.js           # Shared JS (nav, reveal animations, gallery, lightbox)
 ├── README.md           # This file
 ├── .nojekyll           # Tells GitHub Pages to serve files as-is
-├── Elegant_logo.png    # Logo (header, hero, footer)
-├── favicon_elegant.png # Favicon / touch icon
+├── jacobs-logo.png     # Logo (header, hero, footer)
+├── jacobs-favicon.png  # Favicon / touch icon
 ├── exterior-barbershop.png  # Shop interior photo (Visit section)
-├── Barbershop_elegant.png   # 1915/2015 tradition image (About section)
+├── barbershop-tradition.png # 1915/2015 tradition image (About section)
 ├── 3-boys.png          # Child in the car chair (hero)
 ├── Kids_haircuts.png   # Customer satisfaction policy sign
 └── gallery/
