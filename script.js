@@ -1,5 +1,5 @@
 /* =====================================================================
-   Elegant Barber Shop — shared script (index.html + gallery.html)
+   Jacob's Barber Shop — shared script (index.html + gallery.html)
    Vanilla JS only. Handles: mobile nav, reveal-on-scroll, gallery build
    with graceful missing-image placeholders, accessible lightbox, and the
    footer year.
@@ -16,16 +16,16 @@
      yet, a branded "coming soon" placeholder is shown instead.
   ------------------------------------------------------------------ */
   var GALLERY = [
-    { file: "gallery/gallery-01.png", alt: "Fresh men's haircut at Elegant Barber Shop in Bellmore" },
-    { file: "gallery/gallery-02.png", alt: "Clean skin fade by the barbers at Elegant Barber Shop" },
-    { file: "gallery/gallery-03.png", alt: "Kids' haircut at Elegant Barber Shop in Bellmore" },
+    { file: "gallery/gallery-01.png", alt: "Fresh men's haircut at Jacob's Barber Shop in Bellmore" },
+    { file: "gallery/gallery-02.png", alt: "Clean skin fade by the barbers at Jacob's Barber Shop" },
+    { file: "gallery/gallery-03.png", alt: "Kids' haircut at Jacob's Barber Shop in Bellmore" },
     { file: "gallery/gallery-04.png", alt: "Sharp lineup and taper haircut" },
     { file: "gallery/gallery-05.png", alt: "Scissor cut with a natural, textured finish" },
-    { file: "gallery/gallery-06.png", alt: "Elegant Barber Shop business card with services, address and phone number" },
+    { file: "gallery/gallery-06.png", alt: "Barbershop business card" },
     { file: "gallery/gallery-07.png", alt: "Low fade haircut detail" },
     { file: "gallery/gallery-08.png", alt: "Hair design and detailed lineup" },
     { file: "gallery/gallery-09.png", alt: "Comfortable kids' haircut in progress" },
-    { file: "gallery/gallery-10.png", alt: "Hot towel shave finish at Elegant Barber Shop" },
+    { file: "gallery/gallery-10.png", alt: "Hot towel shave finish at Jacob's Barber Shop" },
     { file: "gallery/gallery-11.png", alt: "Modern textured crop haircut" },
     { file: "gallery/gallery-12.png", alt: "High fade with a clean taper" },
     { file: "gallery/gallery-13.png", alt: "Neat, tapered everyday men's cut" },

@@ -1,14 +1,14 @@
-# Elegant Barber Shop — Website
+# Jacob's Barber Shop — Website
 
-A polished, production-ready static website for **Elegant Barber Shop** in
+A polished, production-ready static website for **Jacob's Barber Shop** in
 Bellmore, New York. Built with plain HTML, CSS, and vanilla JavaScript — no
 frameworks, no backend, no build step. It's designed to be hosted for free on
 **GitHub Pages**.
 
-- **Business:** Elegant Barber Shop
-- **Address:** 210 Bedford Ave, Bellmore, NY 11710
-- **Phone:** (516) 679-8909
-- **Rating:** 4.9 stars on Google (135 reviews)
+- **Business:** Jacob's Barber Shop
+- **Address:** 312 Bedford Ave, Bellmore, NY 11710
+- **Phone:** (516) 804-0406
+- **Rating:** 4.8 stars on Google (116 reviews)
 
 ---
 
@@ -34,11 +34,12 @@ Both pages include a shared, accessible navigation, footer, and image lightbox.
 ├── script.js           # Shared JS (nav, reveal animations, gallery, lightbox)
 ├── README.md           # This file
 ├── .nojekyll           # Tells GitHub Pages to serve files as-is
-├── Elegant_logo.png    # Logo (header, hero, footer)
-├── favicon_elegant.png # Favicon / touch icon
-├── exterior-barbershop.png  # Storefront photo (Visit section)
-├── Barbershop_elegant.png   # Shop interior photo (About section)
-├── 3-boys.png          # Family-friendly photo (hero + family section)
+├── jacobs-logo.png     # Logo (header, hero, footer)
+├── jacobs-favicon.png  # Favicon / touch icon
+├── exterior-barbershop.png  # Shop interior photo (Visit section)
+├── barbershop-tradition.png # 1915/2015 tradition image (About section)
+├── 3-boys.png          # Child in the car chair (hero)
+├── Kids_haircuts.png   # Customer satisfaction policy sign
 └── gallery/
     ├── README.md       # Instructions for adding haircut photos
     ├── gallery-01.png  # (add these — see gallery/README.md)
@@ -85,15 +86,16 @@ recommendations.
 
 ## How to update business information
 
-Business details (address, phone, hours, ratings, social links) live directly
+Business details (address, phone, hours, ratings, and social profiles) live directly
 in the HTML. To change them:
 
 - **Phone number:** search `index.html` and `gallery.html` for
-  `+15166798909` (the `tel:` links) and `(516) 679-8909` (the visible text).
-- **Address:** search for `210 Bedford Ave`.
+  `+15168040406` (the `tel:` links) and `(516) 804-0406` (the visible text).
+- **Address:** search for `312 Bedford Ave`.
 - **Hours:** edit the `<table class="hours">` blocks in the Visit sections.
 - **Ratings / review text:** edit the Reviews section in `index.html`.
-- **Social links:** search for `instagram.com` and `tiktok.com`.
+- **Social profiles:** Instagram links to `@Jacobsbarbershop`; Facebook links
+  to the shop's profile page. Keep both pages and their structured data in sync.
 - **Structured data:** update the `application/ld+json` block near the top of
   each HTML file so search engines stay in sync.
 
@@ -125,7 +127,7 @@ in the HTML. To change them:
 ```bash
 git status
 git add .
-git commit -m "Build Elegant Barber Shop website"
+git commit -m "Build Jacob's Barber Shop website"
 git pull --rebase origin main
 git push origin main
 ```
